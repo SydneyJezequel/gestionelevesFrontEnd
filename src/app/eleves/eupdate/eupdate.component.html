@@ -1,0 +1,25 @@
+<p>uadd works!</p>
+
+
+<div class="form_container">
+  <form name="form" #f="ngForm" (ngSubmit)="f.form.valid && updateEleve(eleve)">
+    <div class="group">
+      <label>Nom
+        <input type="text" name="nom" id="nom" [(ngModel)]="eleve.nom" #nom="ngModel" required>
+      </label>
+    </div>
+    <div class="group">
+      <label>Prénom
+        <input type="text" name="prenom" id="prenom" [(ngModel)]="eleve.prenom" #prenom="ngModel" required>
+      </label>
+    </div>
+    <div class="group">
+      <label>Email
+        <input type="text" name="email" id="email" [(ngModel)]="eleve.email" #email="ngModel" required>
+      </label>
+    </div>
+    <div class="group">
+      <button (click)="updateEleve(eleve)">Modifier</button>
+    </div>
+  </form>
+</div>

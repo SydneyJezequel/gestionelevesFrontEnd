@@ -1,0 +1,24 @@
+<p>eadd works!</p>
+
+<div class="form_container">
+  <form [formGroup]="createForm" >
+    <div class="group">
+      <label>Nom
+        <input type="text" name="nom" formControlName="nom">
+      </label>
+    </div>
+    <div class="group">
+      <label>Prénom
+        <input type="text" name="prenom" formControlName="prenom">
+      </label>
+    </div>
+    <div class="group">
+      <label>Email
+        <input type="text" name="email" formControlName="email">
+      </label>
+    </div>
+    <div class="group">
+      <button (click)="addEleve($event)">Ajouter un élève</button>
+    </div>
+  </form>
+</div>
