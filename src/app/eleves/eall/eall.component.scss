@@ -6,11 +6,19 @@ td
 {
   text-align :center;
   font-family: sans-serif;
+  color:#0066cc;
 }
 
-.btn btn-warning
+th
+{
+  color:#0066cc;
+}
+
+.btn
 {
   text-align :center;
+  background-color: #318ce7;
+  color: #fef86c;
 }
 
 
@@ -19,4 +27,40 @@ td
     display: none;
   }
 
+}
+
+// Pied de page :s
+.footer
+{
+  background-color: #318ce7;
+  height: 120px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+@media only screen and (max-width: 600px) {
+  .footer {
+    display: none;
+  }
+}
+
+// Logo :
+.logo
+{
+ float: right;
+}
+ @media only screen and (max-width: 600px) {
+   .logo {
+     display: none;
+   }
+}
+
+// Fond d'écran :
+@media only screen and (max-width: 600px) {
+  .body {
+    background-color: #D3D3D3;
+  }
 }

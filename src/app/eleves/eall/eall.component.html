@@ -16,12 +16,14 @@
     <td class="desktop">{{eleve.prenom}}</td>
     <td class="desktop">{{eleve.email}}</td>
     <td>
-      <button class="btn btn-warning" [routerLink]="['/eleve/edit', eleve.id]">Modifier</button>
-      <button class="btn btn-danger" (click)="deleteEleve(eleve.id)">Supprimer</button>
+      <button class="btn" [routerLink]="['/eleve/edit', eleve.id]">Modifier</button>
+      <button class="btn" (click)="deleteEleve(eleve.id)">Supprimer</button>
     </td>
   </tr>
   </tbody>
   <button class="btn btn-warning" [routerLink]="['/eleve/add']">Ajouter un Eleve</button>
 </table>
 
+<img src="assets/logo.png" alt="logo" class="logo">
 
+<footer class="footer"></footer>
