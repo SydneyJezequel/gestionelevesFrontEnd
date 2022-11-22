@@ -1,6 +1,6 @@
 header {
   text-align: center;
-  background-color: #318ce7; // #EEE
+  background-color: #318ce7;
   color: #fef86c;
   margin-bottom: 20px;
   padding: 10px;
@@ -9,7 +9,7 @@ header {
 
 a {
   margin: 0 10px;
-  color: #fef86c; // #333
+  color: #fef86c;
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -17,6 +17,6 @@ a {
 }
 
 .active {
-  color: #fef86c; // #666
+  color: #fef86c;
   text-decoration: underline;
 }
