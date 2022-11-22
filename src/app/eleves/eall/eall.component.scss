@@ -1,3 +1,4 @@
+// Affichage des élèves :
 table
 {
   margin: auto;
@@ -8,20 +9,19 @@ td
   font-family: sans-serif;
   color:#0066cc;
 }
-
 th
 {
   color:#0066cc;
 }
 
+
+// Boutons :
 .btn
 {
   text-align :center;
   background-color: #318ce7;
   color: #fef86c;
 }
-
-
 @media only screen and (max-width: 600px) {
   .desktop {
     display: none;
@@ -29,7 +29,8 @@ th
 
 }
 
-// Pied de page :s
+
+// Pied de page :
 .footer
 {
   background-color: #318ce7;
@@ -43,9 +44,10 @@ th
 }
 @media only screen and (max-width: 600px) {
   .footer {
-    display: none;
+   display: none;
   }
 }
+
 
 // Logo :
 .logo
@@ -56,11 +58,4 @@ th
    .logo {
      display: none;
    }
-}
-
-// Fond d'écran :
-@media only screen and (max-width: 600px) {
-  .body {
-    background-color: #D3D3D3;
-  }
 }
